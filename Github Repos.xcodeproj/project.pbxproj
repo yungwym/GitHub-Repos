@@ -13,6 +13,8 @@
 		FFEC8F371F1D2B2500E961DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEC8F351F1D2B2500E961DA /* Main.storyboard */; };
 		FFEC8F391F1D2B2500E961DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEC8F381F1D2B2500E961DA /* Assets.xcassets */; };
 		FFEC8F3C1F1D2B2500E961DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEC8F3A1F1D2B2500E961DA /* LaunchScreen.storyboard */; };
+		FFEC8F451F1D3E1E00E961DA /* RepoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEC8F441F1D3E1E00E961DA /* RepoTableViewCell.m */; };
+		FFEC8F481F1D3E2F00E961DA /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEC8F471F1D3E2F00E961DA /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FFEC8F381F1D2B2500E961DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFEC8F3B1F1D2B2500E961DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFEC8F3D1F1D2B2500E961DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEC8F431F1D3E1E00E961DA /* RepoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoTableViewCell.h; sourceTree = "<group>"; };
+		FFEC8F441F1D3E1E00E961DA /* RepoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoTableViewCell.m; sourceTree = "<group>"; };
+		FFEC8F461F1D3E2F00E961DA /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		FFEC8F471F1D3E2F00E961DA /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,14 @@
 		FFEC8F2B1F1D2B2500E961DA /* Github Repos */ = {
 			isa = PBXGroup;
 			children = (
-				FFEC8F2F1F1D2B2500E961DA /* AppDelegate.h */,
-				FFEC8F301F1D2B2500E961DA /* AppDelegate.m */,
 				FFEC8F321F1D2B2500E961DA /* ViewController.h */,
 				FFEC8F331F1D2B2500E961DA /* ViewController.m */,
 				FFEC8F351F1D2B2500E961DA /* Main.storyboard */,
+				FFEC8F431F1D3E1E00E961DA /* RepoTableViewCell.h */,
+				FFEC8F441F1D3E1E00E961DA /* RepoTableViewCell.m */,
+				FFEC8F461F1D3E2F00E961DA /* Repo.h */,
+				FFEC8F471F1D3E2F00E961DA /* Repo.m */,
 				FFEC8F381F1D2B2500E961DA /* Assets.xcassets */,
-				FFEC8F3A1F1D2B2500E961DA /* LaunchScreen.storyboard */,
-				FFEC8F3D1F1D2B2500E961DA /* Info.plist */,
 				FFEC8F2C1F1D2B2500E961DA /* Supporting Files */,
 			);
 			path = "Github Repos";
@@ -74,6 +80,10 @@
 		FFEC8F2C1F1D2B2500E961DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFEC8F3A1F1D2B2500E961DA /* LaunchScreen.storyboard */,
+				FFEC8F3D1F1D2B2500E961DA /* Info.plist */,
+				FFEC8F2F1F1D2B2500E961DA /* AppDelegate.h */,
+				FFEC8F301F1D2B2500E961DA /* AppDelegate.m */,
 				FFEC8F2D1F1D2B2500E961DA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEC8F481F1D3E2F00E961DA /* Repo.m in Sources */,
 				FFEC8F341F1D2B2500E961DA /* ViewController.m in Sources */,
 				FFEC8F311F1D2B2500E961DA /* AppDelegate.m in Sources */,
 				FFEC8F2E1F1D2B2500E961DA /* main.m in Sources */,
+				FFEC8F451F1D3E1E00E961DA /* RepoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
